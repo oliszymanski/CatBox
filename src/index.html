@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Some page title</title>
+
+    <style>
+        section{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .buttons{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        button:first-child{
+            order: 1;
+        }
+
+        button{
+            padding: 0 50px;
+        }
+
+
+
+        @media only screen  and (max-width: 678px){
+            section{
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            .buttons{
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+        }
+
+    </style>
+
 </head>
 <body>
+    <section>
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, mauris
+            sed elementum scelerisque, ligula eros pulvinar lectus, at hendrerit orci mi vel massa
+        </article>
+        <article>
+           Morbi malesuada congue ultrices. Fusce elementum, elit sed posuere ultricies, metus ipsum
+            vehicula tellus, vitae auctor nulla massa sed elit. Praesent pellentesque enim est, a rutrum
+            ante ultricies ornare. Donec tristique faucibus metus, tincidunt varius eros aliquam in. Nam
+            at justo lorem. Quisque venenatis erat a nulla hendrerit, et aliquam nibh suscipit. Phasellus
+            mollis eros eget justo lacinia, in lacinia risus porttitor. Proin id mauris sed ante tincidunt
+            placerat nec in tellus. Nullam a est at erat venenatis euismod sed non mauris. Vivamus tincidunt
+            elementum tincidunt. Aenean non diam dui. Nam scelerisque mi eget purus convallis malesuada.
+            Aenean placerat fermentum purus id laoreet. Aenean et purus eu turpis scelerisque feugiat.
+            Fusce id efficitur sem.
+        </article>
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, mauris
+            sed elementum scelerisque, ligula eros pulvinar lectus, at hendrerit orci mi vel massa
+            at justo lorem. Quisque venenatis erat a nulla hendrerit, et aliquam nibh suscipit. Phasellus
+            mollis eros eget justo lacinia, in lacinia risus porttitor. Proin id mauris sed ante tincidunt
+            placerat nec in tellus. Nullam a est at erat venenatis euismod sed non mauris. Vivamus tincidunt
+            elementum tincidunt. Aenean non diam dui. Nam scelerisque mi eget purus convallis malesuada.
+            Aenean placerat fermentum purus id laoreet. Aenean et purus eu turpis scelerisque feugiat.
+            Fusce id efficitur sem.
+        </article>
+    </section>
 
+
+    <div class="buttons">
+        <button>first</button>
+        <button>second</button>
+        <button>third</button>
+        <button>fourth</button>
+        <button>fifth</button>
+    </div>
 </body>
 </html>
