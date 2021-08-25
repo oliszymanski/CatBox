@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some website title</title>
+
+    <style>
+
+        .split-section{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between
+        }
+
+        .dark-blue{
+            color: #fff
+        }
+
+        .dark-blue{
+            background-color: #01578c;
+        }
+
+
+        @media only screen and (max-width: 678px){
+            .split-section{
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <section class="split-section">
+        <div class="sec-div">afasfsafsafsaf</div>
+        <div class="sec-div dark-blue">aasdasdsdsadsada</div>
+    </section>
+</body>
+</html>
