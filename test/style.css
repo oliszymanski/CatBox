@@ -33,6 +33,35 @@ html, body{
 
 
 
+
+
+/**** SECTION STYLING ****/
+.split-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.dark-blue{
+    color: #fff
+}
+
+.dark-blue{
+    background-color: #01578c;
+}
+
+
+@media only screen and (max-width: 578px){
+    .split-section{
+        flex-flow: row wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+}
+
+
 .split-section {
     display: flex;
     flex-direction: row-reverse;
