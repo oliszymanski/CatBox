@@ -33,7 +33,7 @@ html, body{
 
 
 
-section {
+.split-section {
     display: flex;
     flex-direction: row-reverse;
 }
