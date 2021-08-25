@@ -10,7 +10,8 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between
+            justify-content: space-between;
+            column-gap: 20px;
         }
 
         .dark-blue{
@@ -22,10 +23,11 @@
         }
 
 
-        @media only screen and (max-width: 678px){
+        @media only screen and (max-width: 578px){
             .split-section{
                 flex-flow: row wrap;
                 justify-content: center;
+                row-gap: 30px;
             }
         }
 
@@ -34,8 +36,18 @@
 </head>
 <body>
     <section class="split-section">
-        <div class="sec-div">afasfsafsafsaf</div>
-        <div class="sec-div dark-blue">aasdasdsdsadsada</div>
+        <div class="sec-div">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper
+            vulputate augue, tincidunt viverra urna tempus at. Donec ullamcorper volutpat felis sit
+            amet lacinia. Morbi euismod fermentum molestie. Praesent vulputate libero vitae arcu
+            consequat vulputate
+        </div>
+        <div class="sec-div dark-blue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper
+            vulputate augue, tincidunt viverra urna tempus at. Donec ullamcorper volutpat felis sit
+            amet lacinia. Morbi euismod fermentum molestie. Praesent vulputate libero vitae arcu
+            consequat vulputate
+        </div>
     </section>
 </body>
 </html>
