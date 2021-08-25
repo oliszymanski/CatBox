@@ -23,6 +23,16 @@ html, body{
     margin-left: 3rem
 }
 
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: #000
+}
+
+
+
+
+
 section {
     display: flex;
     flex-direction: row-reverse;
